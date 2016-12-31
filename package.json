@@ -1,0 +1,23 @@
+{
+  "name": "nodewebsite",
+  "version": "0.0.1",
+  "description": "simple website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Krishna Kotu",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "~1.2.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitusince1992/imagineaTask.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chaitusince1992/imagineaTask/issues"
+  },
+  "homepage": "https://github.com/chaitusince1992/imagineaTask#readme"
+}

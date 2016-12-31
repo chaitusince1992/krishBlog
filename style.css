@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #606060;
+}
+footer.copyright-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.21);
+    font-size: .8em;
+}
+img.brand-image {
+    vertical-align: middle;
+}
+.contact-details {
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    font-size: .8em;
+}
+.nav-buttons {
+    vertical-align: middle;
+    padding: 15px 10px;
+}
+.main-navigation {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+img.banner-image {
+    padding: 0;
+    filter: brightness(60%);
+}
+.content-heading {
+    padding: 20px 0;
+}
+.authors-name {
+    position: absolute;
+    top: 0;
+}
+.banner-container {
+    position: relative;
+    color: white;
+}
+.authors-skills {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+@media(max-width:767px) {
+    .authors-name {
+        top: 6%;
+        font-size: 6vw;
+    }
+    .authors-skills {
+        top: 37%;
+        font-size: 4.3vw;
+    }
+}
+@media(min-width:768px) {
+    .authors-name {
+        top: 6%;
+        font-size: 3.3em;
+    }
+    .authors-skills {
+        top: 35%;
+        font-size: 2.6em;
+    }
+}
+@media(min-width:992px) {
+    .authors-name {
+        top: 6%;
+        font-size: 4em;
+    }
+    .authors-skills {
+        top: 44%;
+        font-size: 2.5em;
+    }
+}
+@media(min-width:1200px) {
+    .authors-name {
+        top: 6%;
+        font-size: 4em;
+    }
+    .authors-skills {
+        top: 44%;
+        font-size: 3em;
+    }
+}
